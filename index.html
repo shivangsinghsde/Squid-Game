@@ -9,7 +9,7 @@
       rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="h-full w-full">
+  <body class="relative h-full w-full">
     <main
       class="h-full w-full pt-4 pl-7 pr-7 pb-4 bg-linear-to-tr from-rose-950 via-pink-900 via-pink-800 to-violet-950"
     >
@@ -28,20 +28,49 @@
         <span><i class="ri-menu-3-line text-2xl text-white"></i></span>
       </nav>
 
-      <section class="w-full h-110 bg--500 mt-3 flex justify-between">
-        <div class="h-full pl-10 bg-transparent-500 w-1/3 flex flex-col gap-5">
-            <img src="https://pngimg.com/uploads/squid_game/squid_game_PNG35.png" alt="" class="w-90 mt-8">
+      <section class="w-full h-110 bg-transparent-500 mt-3 flex justify-between">
+        <div class="relative h-full pl-10 bg-transparent-500 w-1/2 flex flex-col gap-5">
+            <img src="https://pngimg.com/uploads/squid_game/squid_game_PNG35.png" alt="" class="w-90">
             <p class="text-md text-white">Action / Thriller / Drama Series directed by Dong-hyuk Hwang <br>Season 1: 9 Episodes</p>
             <div class="w-full h-20 bg-transparent-500 flex gap-10">
-                <button class="h-12 w-1/3 bg-linear-to-r from-pink-700 to-orange-400 border-black border-2 border-solid border-rose-950 rounded-lg text-white flex items-center justify-center gap-1 text-md"><i class="ri-play-circle-fill text-xl"></i>Play Now</button>
-                <button class="h-12 w-1/3 bg-transperent border-pink border-2 border-solid border-rose-950 rounded-lg text-white flex items-center justify-center gap-1 text-md"><i class="ri-play-line text-md "></i>Watch Trailer</button>
+                <button class="h-12 w-1/4 bg-linear-to-r from-pink-700 to-orange-400 border-black border-2 border-solid border-rose-950 rounded-lg text-white flex items-center justify-center gap-1 text-md"><i class="ri-play-circle-fill text-xl"></i>Play Now</button>
+                <button class="h-12 w-1/4 bg-transperent border-pink border-2 border-solid border-rose-950 rounded-lg text-white flex items-center justify-center gap-1 text-md"><i class="ri-play-line text-md "></i>Watch Trailer</button>
             </div>
+            <h1 class="absolute bottom-0 text-9xl ml-30 tracking-wide text-white opacity-50"><strong>GAME</strong></h1>
         </div>
-        <div class="h-full bg-cyan-500 w-1/2">
-            <img src="" alt="">
+        <div class="h-full bg-transparent-500 w-1/2 relative">
+            <img src="./1444x920_le-realisateur-de-squid-game-negocie-une-saison-3-avec-netflix-removebg-preview-removebg-preview.png" 
+            alt="" class="absolute inset-x-0 bottom-0 h-full">
         </div>
       </section>
 
+      <section class="absolute w-350 h-53 p-3 flex gap-6 bg-linear-to-tr from-rose-950 via-pink-950 to-indigo-950 left-20 rounded-4xl bottom-0 shadow-xl/80 shadow-black">
+        <div class="h-full w-80 bg-yellow-500 rounded-4xl ml-3 relative">
+            <img src="./3 guard.webp" alt="" class="h-full w-full rounded-4xl">
+            <div class="h-10 w-10 bg-black flex justify-center items-center rounded-4xl absolute opacity-55  bottom-3 right-5">
+                <i class="ri-play-fill text-3xl text-white opacity-100"></i>
+            </div>
+        </div>
+        <div class="h-full w-80 bg-yellow-500 rounded-4xl relative">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLFiypbCSt9IC7hQE6dJaCBNIMYmyxazzNvgh-1WR_RvXFs9WqVoIQ6tQ&s=10" alt="" class="h-full w-full rounded-4xl">
+            <div class="h-10 w-10 bg-black flex justify-center items-center rounded-4xl absolute opacity-55  bottom-3 right-5">
+                <i class="ri-play-fill text-3xl text-white opacity-100"></i>
+            </div>
+        </div>
+        <div class="h-full w-80 bg-yellow-500 rounded-4xl relative">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTttzdDgFcUbDxnqx5otk6vtmTIEca2Vqu91OtyyrnwgwJvRV5Q3ZigCCYb&s=10" alt="" class="h-full w-full rounded-4xl">
+            <div class="h-10 w-10 bg-black flex justify-center items-center rounded-4xl absolute opacity-55  bottom-3 right-5">
+                <i class="ri-play-fill text-3xl text-white opacity-100"></i>
+            </div>
+        </div>
+        <div class="h-full w-80 bg-yellow-500 rounded-4xl relative">
+            <img src="https://media.wallpaperengine.space/posters/v1/squid-game-guards.webp" alt="" class="h-full w-full rounded-4xl">
+            <div class="h-10 w-10 bg-black flex justify-center items-center rounded-4xl absolute opacity-55  bottom-3 right-5">
+                <i class="ri-play-fill text-3xl text-white opacity-100"></i>
+            </div>
+        </div>
+        
+      </section>
 
     </main>
   </body>
